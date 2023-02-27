@@ -20,22 +20,22 @@ export default {
 			categories: [
 				{
 					id: 1,
-					value: 'web',
+					value: 'Tarea 1',
 					name: 'Web Application',
 				},
 				{
 					id: 2,
-					value: 'mobile',
+					value: 'Tarea 2',
 					name: 'Mobile Application',
 				},
 				{
 					id: 3,
-					value: 'ui-ux',
+					value: 'Tarea 3',
 					name: 'UI/UX Design',
 				},
 				{
 					id: 4,
-					value: 'branding',
+					value: 'Tarea 4',
 					name: 'Branding & Anim',
 				},
 			],
@@ -87,13 +87,13 @@ export default {
 					<router-link to="/"
 						><img
 							v-if="theme === 'light'"
-							src="@/assets/images/logo-dark.svg"
+							src="@/assets/images/logo-dark.jpg"
 							class="w-36"
 							alt="Dark Logo"
 						/>
 						<img
 							v-else
-							src="@/assets/images/logo-light.svg"
+							src="@/assets/images/logo-light.jpg"
 							class="w-36"
 							alt="Light Logo"
 						/>
@@ -146,7 +146,7 @@ export default {
 				<!-- Hire me button -->
 				<div class="hidden md:block">
 					<Button
-						title="Hire Me"
+						title="Para contratos"
 						class="text-md font-general-medium bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-md px-5 py-2.5 duration-300"
 						@click="showModal()"
 						aria-label="Hire Me Button"

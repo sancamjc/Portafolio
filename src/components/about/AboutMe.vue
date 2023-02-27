@@ -6,12 +6,12 @@ export default {
 				{
 					id: 1,
 					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+						'"Soy una persona respetuosa y jovial al mismo tiempo. Encuentro soluciones, soy creativo y resuelvo problemas sin necesidad de la ayuda de compañeros de trabajo o gerentes. Sé cuándo pedir ayuda y no me quedo callado si la necesito. Pero cuando es posible manejar algo sin ocupar el tiempo de los demás, lo hago y me considero muy bueno en eso. Es una de las cosas que mi último jefe diría de mí, si les pidieras que describieran mi estilo de trabajo seria justo de esta forma, actualmente estoy estudiando Ingenieria en Sistemas y Redes Informaticas en la Universidad General Gerardo Barrios y trabajo en Grupo Campestre en el area de IT, vivo en Jucuapa, Depto de Usulutan."',
 				},
 				{
 					id: 2,
 					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+						'',
 				},
 			],
 		};
@@ -35,7 +35,7 @@ export default {
 			<p
 				v-for="bio in bios"
 				:key="bio.id"
-				class="font-general-regular mb-4 text-ternary-dark dark:text-ternary-light text-lg"
+				class="font-general-regular mb-4 text-ternary-dark dark:text-ternary-light text-lg text-align-justify"
 			>
 				{{ bio.bio }}
 			</p>

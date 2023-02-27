@@ -46,7 +46,7 @@ export default {
 								<h5
 									class="text-primary-dark dark:text-primary-light text-xl"
 								>
-									What project are you looking for?
+									Que proyecto buscas?
 								</h5>
 								<button
 									class="px-4 text-primary-dark dark:text-primary-light"

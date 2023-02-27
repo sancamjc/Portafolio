@@ -16,145 +16,103 @@ export default {
 	data: () => {
 		return {
 			singleProjectHeader: {
-				singleProjectTitle: 'Project Management UI',
-				singleProjectDate: 'Jul 26, 2021',
-				singleProjectTag: 'UI / Frontend',
+				singleProjectTitle: 'Proyectos',
+				singleProjectDate: 'Enero a Febrero de 2023',
+				singleProjectTag: 'Tareas',
 			},
 			projectImages: [
 				{
 					id: 1,
-					title: 'Kabul Project Management UI',
+					title: 'Tarea 1',
 					img: require('@/assets/images/ui-project-1.jpg'),
 				},
 				{
 					id: 2,
-					title: 'Kabul Project Management UI',
+					title: 'tarea 2',
 					img: require('@/assets/images/web-project-2.jpg'),
 				},
 				{
 					id: 3,
-					title: 'Kabul Project Management UI',
+					title: 'Tarea 3',
 					img: require('@/assets/images/mobile-project-2.jpg'),
 				},
 			],
 			projectInfo: {
-				clientHeading: 'About Client',
+				clientHeading: 'Generalidades',
 				companyInfos: [
 					{
 						id: 1,
-						title: 'Name',
-						details: 'Company Ltd',
+						title: 'Nombre',
+						details: 'Universidad Gerardo Barrios',
 					},
 					{
 						id: 2,
-						title: 'Services',
-						details: 'UI Design & Frontend Development',
+						title: 'Carrera',
+						details: 'Ingenieria en Sistemas Informaticos',
 					},
 					{
 						id: 3,
-						title: 'Website',
-						details: 'https://company.com',
+						title: 'Docente',
+						details: 'Gisela Espinoza',
 					},
 					{
 						id: 4,
-						title: 'Phone',
-						details: '555 8888 888',
+						title: 'Laboratorio 2',
+						details: 'Portafolio',
 					},
 				],
-				objectivesHeading: 'Objective',
+				objectivesHeading: 'Objetivo',
 				objectivesDetails:
-					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
+					'Poner en practica el aprendizaje durante el primer computo de la asignatura',
 				technologies: [
 					{
-						title: 'Tools & Technologies',
+						title: 'Tecnologias',
 						techs: [
 							'HTML',
 							'CSS',
 							'JavaScript',
 							'Vue.js',
-							'TailwindCSS',
-							'AdobeXD',
-						],
+							'Node.js',
+							],
 					},
 				],
-				projectDetailsHeading: 'Challenge',
+				projectDetailsHeading: 'Agradecimiento',
 				projectDetails: [
 					{
 						id: 1,
 						details:
-							'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+							'Primero y, antes que nada, dar Gracias a Dios por estar con nosotros en cada paso que damos, por fortalecer nuestros corazones e iluminar nuestras mentes y por poner en nuestro camino aquellas personas que son nuestro soporte y compañía durante el periodo de estudio.',
 					},
 					{
 						id: 2,
 						details:
-							'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+							'Nuestro objetivo es integrar conocimiento informático a través de los proyectos y tareas Tecnológicas, con la finalidad de proporcionarles herramientas que les faciliten los procesos y el manejo de información para un mejor desenvolvimiento en todas las áreas de estudios de la Ingeniería en Sistema.',
 					},
-					{
-						id: 3,
-						details:
-							'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-					},
-					{
-						id: 4,
-						details:
-							'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-					},
+					
 				],
-				socialSharingsHeading: 'Share This',
-				socialSharings: [
-					{
-						id: 1,
-						name: 'Twitter',
-						icon: 'twitter',
-						url: 'https://twitter.com/realstoman',
-					},
-					{
-						id: 2,
-						name: 'Instagram',
-						icon: 'instagram',
-						url: 'https://instagram.com/realstoman',
-					},
-					{
-						id: 3,
-						name: 'Facebook',
-						icon: 'facebook',
-						url: 'https://facebook.com/',
-					},
-					{
-						id: 4,
-						name: 'LinkedIn',
-						icon: 'linkedin',
-						url: 'https://linkedin.com/',
-					},
-					{
-						id: 5,
-						name: 'Youtube',
-						icon: 'youtube',
-						url: 'https://www.youtube.com/c/StomanStudio',
-					},
-				],
+				
 			},
 			relatedProject: {
-				relatedProjectsHeading: 'Related Projects',
+				relatedProjectsHeading: 'Otras Tareas',
 				relatedProjects: [
 					{
 						id: 1,
-						title: 'Mobile UI',
+						title: 'Tarea 1',
 						img: require('@/assets/images/mobile-project-1.jpg'),
 					},
 					{
 						id: 2,
-						title: 'Web Application',
+						title: 'Tarea 2',
 						img: require('@/assets/images/web-project-1.jpg'),
 					},
 					{
 						id: 3,
-						title: 'UI Design',
+						title: 'Tarea 3',
 						img: require('@/assets/images/ui-project-2.jpg'),
 					},
 					{
 						id: 4,
-						title: 'Kabul Mobile App UI',
+						title: 'Tarea 4',
 						img: require('@/assets/images/mobile-project-2.jpg'),
 					},
 				],
