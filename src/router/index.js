@@ -60,6 +60,18 @@ const routes = [
 			title: 'Contactame',
 		},
 	},
+	{
+		path: '/job',
+		name: 'job',
+		// route level code-splitting
+		// this generates a separate chunk (projects.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(/* webpackChunkName: "projects" */ '../views/job.vue'),
+		meta: {
+			title: 'Experiencia Laboral',
+		},
+	},
 ];
 
 const router = createRouter({
